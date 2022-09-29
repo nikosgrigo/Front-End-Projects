@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font-family: 'Poppins','sans-serif';
+    background-color: rgb(221, 215, 215);
+    color: aliceblue;
+}
+
+.products-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 5%;
+   
+}
+
+.product-info
+{
+    font-size: 0.9rem;
+    color:rgb(251, 209, 41);
+    padding-left: 240px;
+}
+
+.product-header{
+    display: flex;
+    justify-content: row;
+}
+
+
+
+.product{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(251, 251, 251);
+    border: 2px solid rgb(161, 146, 146);
+    padding: 20px 20px;
+    border-radius: 8px;
+    color: rgb(69, 65, 65);
+    width: 300px;
+    height: 500px;
+    
+}
+
+.product:hover{
+    background-color: rgb(247, 246, 246);
+    border-color:rgba(152, 156, 154, 0.69);
+}
+
+.product-price{
+    margin-bottom: 10px;
+}
+
+.product-img{
+    width: 260px;
+    height: 260px;
+    padding: 14px 10px;
+    border-radius: 10px;
+}
+
+.Product-Title{
+    padding-top: 40px;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgb(241, 202, 47);
+    
+}
+
+.Product-Subtitle{
+    padding-top: 10px;
+    margin-left: 15%;
+    color: rgb(45, 44, 44);
+}
+
+.product-shopping-cart{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(137, 132, 132);;
+    width: 200px;
+    background-color: rgb(251, 212, 58);
+    border-radius: 10px;
+    margin: 5% 20%;
+}
+
+.shopping-cart-icon{
+    color: rgb(69, 65, 65);;
+    padding: 7px;
+    margin-top: 7px;
+    
+}
+
+.product-shopping-cart:hover{
+    background-color: rgb(246, 199, 14);
+    border-top: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.product-description{
+    padding: 10px 0 10px;
+}
+
+.icons{
+    font-size: 1.25rem;
+}
+
+
+.product-colors{
+    font-size: 0.75rem;
+
+}
+
+.favorite-icon{
+    padding-left: 10px;
+}
+
+.favorite-icon:hover{
+    color: red;
+    fill: red;
+}
+
+
+.color-icon{
+    padding-right: 5px;
+}
