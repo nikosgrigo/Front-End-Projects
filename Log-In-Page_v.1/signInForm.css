@@ -1,0 +1,125 @@
+body{
+    background-color: #FFBA63;
+    color: rgb(255, 255, 255);
+    font-family: 'Nunito', sans-serif;
+    background: #FFBA63;
+}
+
+.aside_svg{
+    width: 700px;
+    height: 700px;
+    position: fixed;
+    left: -10%;
+}
+
+.form_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #1781f3;
+}
+
+input::placeholder{
+    color: #bcbcbd;
+}
+
+#avatar{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #FFBA63;
+    margin: 1rem 0;
+    border: 1px solid white;
+}
+
+
+/*--Buttons--*/
+.buttons{
+    padding: 8px 24px;
+    border: 1px solid rgb(249, 249, 249);
+    border-radius: 5px;
+    margin: 20px 0;
+    background-color: #FFBA63;
+    color: white;
+    cursor: pointer;
+}
+
+
+.login_button{
+    width: 200px;
+    padding: 10px 0;
+    margin-left: 70px;
+}
+
+.login_button:hover{
+    background-color: #1781f3;
+    border-color: white;
+}
+
+.cancel_button:hover{
+    background-color: #ee3211;
+    border-color: white;
+
+}
+
+.cancel_button{
+    margin-right: 100px;
+    padding: 10px 25px;
+
+}
+
+
+/*--Inputs--*/
+.inputs{
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.inputs:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #FFBA63;
+}
+
+.input_container{
+    padding: 10px;
+    display: flex;
+   flex-direction: column;
+   
+}
+
+.labels{
+    margin: 7px 0;
+    left: 0;
+}
+
+@media screen and (max-width: 756px){
+    .aside_svg{
+        display: none;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #avatar{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: #FFBA63;
+        margin: 0.75rem 0;
+        border: 1px solid white;
+    }
+
+}
