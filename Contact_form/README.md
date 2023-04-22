@@ -1,6 +1,6 @@
 <h1>Simple Contact Form</h1>
 <p>
-This is a simple front-end contact form page that allows users to submit inquiries or messages through a contact form on a website. The form is built using HTML, CSS, and JavaScript, and it provides a user-friendly interface for capturing user input and submitting it to a specified email address.</p>
+This is a simple front-end contact form page that allows users to submit inquiries or messages through a contact form on a website. The form is built using HTML, CSS, and JavaScript, and it provides a user-friendly interface for capturing user.</p>
 
 <h2>Features</h2>
 <p>
