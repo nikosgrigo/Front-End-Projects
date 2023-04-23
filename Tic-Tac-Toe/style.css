@@ -1,0 +1,124 @@
+body {
+  background-color: rgb(253, 235, 78);
+  color: rgb(68, 66, 66);
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game_board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border-radius: 4px;
+  margin-top: 10vh;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+}
+
+.square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  height: 100px;
+  border: none;
+  border-radius: 5px;
+  margin: 1.5px 1.5px;
+  cursor: pointer;
+  background-color: rgb(235, 83, 129);
+  color: rgb(255, 254, 254);
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+
+.colored_h1 {
+  color: rgb(235, 83, 129);
+}
+
+#reset_game_button {
+  background-color: rgb(235, 83, 129);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin-top: 4rem;
+  font-weight: 600;
+  width: 200px;
+}
+
+#reset_game_button:hover {
+  background-color: rgb(167, 34, 73);
+}
+
+.game_state_message {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-left: 40px;
+  background-color: rgba(253, 253, 253, 0.651);
+  border-radius: 10px;
+  padding: 40px 30px;
+  width: 350px;
+  text-align: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: start; */
+  font-weight: 700;
+  width: 50%;
+}
+
+.score_board {
+  display: flex;
+  flex-direction: row;
+}
+
+.Total_score_span {
+  padding-left: 8px;
+  font-size: 35px;
+}
+
+.score_board div {
+  background-color: rgb(253, 253, 253);
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin: 7px 40px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player_span {
+  font-size: large;
+  color: rgb(235, 83, 129);
+  margin: 0px 3px;
+}
+
+.copyright {
+  color: rgb(48, 43, 43);
+  position: fixed;
+  bottom: 0;
+  font-weight: bold;
+}
