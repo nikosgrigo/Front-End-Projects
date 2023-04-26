@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 300px;
+  position: fixed;
+  top: 30%;
+  border: 1px solid rgb(195, 194, 194);
+  border-radius: 7px;
+}
+
+#text {
+  font-size: 25px;
+}
